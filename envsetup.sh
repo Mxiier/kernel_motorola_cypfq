@@ -18,5 +18,5 @@ if [ ! -d $KBUILD_OUTPUT ];then
 fi
 
 export INSTALL_MOD_STRIP=1
-export INSTALL_MOD_PATH=./INSTALL_DIR/cypfq/modules
-export INSTALL_PATH=./INSTALL_DIR/cypfq/kernel
+export INSTALL_MOD_PATH=./INSTALL_DIR/Modules
+export INSTALL_PATH=./INSTALL_DIR/Kernel
